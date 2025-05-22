@@ -1,0 +1,25 @@
+
+/* Estilo quando o menu está aberto */
+ion-menu {
+  --background: #222831; /* fundo do menu */
+  --color: #eeeeee; /* cor do texto */
+}
+
+/* Avatar */
+ion-avatar img {
+  border-radius: 50%;
+  border: 2px solid #00adb5;
+}
+
+/* Itens do menu */
+ion-item {
+  --background: transparent;
+  --color: #eeeeee;
+  font-weight: bold;
+}
+
+/* Cabeçalho do menu */
+ion-toolbar {
+  --background: #393e46;
+  --color: #00adb5;
+}

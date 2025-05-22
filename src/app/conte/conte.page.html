@@ -1,0 +1,24 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <!-- Menu lateral -->
+    <ion-menu contentId="main-content" menuId="first" side="start">
+    <ion-item contentId="main-content" menuId="first" button [routerLink]="'/pessoal'">Pessoal</ion-item>
+  </ion-menu>
+
+    <!-- Conteúdo principal -->
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button menu="first"></ion-menu-button>
+          </ion-buttons>
+          <ion-title></ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content class="ion-padding">
+        Toque no ícone de menu.
+      </ion-content>
+    </div>
+  </ion-split-pane>
+</ion-app>
